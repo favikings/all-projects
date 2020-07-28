@@ -165,14 +165,14 @@ body {
     border-radius:30px;
     background:#262626;
     color:#f2f2f2;
-    width:20%;
+    width:200px;
     text-align: center;
     margin: 0 auto;
     cursor: pointer;
 }
 
 .box:hover{
-    opacity: ;
+    opacity: 0.9;
 }
 
 .magictime {
