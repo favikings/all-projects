@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- Animista -->
+    <!-- <link rel="stylesheet" href="animista.css"> -->
     <!-- Stle.css -->
     <link rel="stylesheet" href="style.css">
     <title>Get Started Form</title>
 </head>
 <body>
-    <div class="box-wrapper">
+    <div class="box-wrapper first-box scale-in-center">
         <div class="box-left">
             <div class="container">
-                    <div class="brand">
+                <div class="brand">
                     <span class="b-box">b.</span>
-                    <span>boardme</span>
+                    <span class="brand-letter">boardme</span>
                 </div>
                 <h3 class="box-left-header">Implement user onboarding experiences with just a few clicks</h3>
 
@@ -28,22 +30,22 @@
                 <div class="links">
                     <div class="icon-box">
                         <i class="fas fa-envelope icon"></i>
-                        <a href="#">Sign up with email</a> 
+                        <a href="#"  class="box-link">Sign up with email</a> 
                     </div>
                     <div class="icon-box">
                         <i class="fab fa-twitter icon"></i>
-                        <a href="#">Sign up with Twitter</a>
+                        <a href="#" class="box-link">Sign up with Twitter</a>
                     </div>
                     <div class="icon-box">
                         <i class="fab fa-facebook-f icon"></i>
-                        <a href="#">Sign up with Facebook</a>
+                        <a href="#" class="box-link">Sign up with Facebook</a>
                     </div>
                 </div>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     </div>
-    <!-- <div class="box-wrapper">
+    <div class="box-wrapper second-box dont-show scale-in-hor-right">
         <div class="box-left">
             <div class="container">
                     <div class="brand">
@@ -72,12 +74,14 @@
                         <input type="password" class="form-input">
                     </div>
                     <div class="input-box">
-                        <input type="submit" class="form-input" value="submit">
+                        <input type="submit" class="form-input submit-btn" value="Sign Up">
                     </div>
                 </div>
-                <p>Already have an account? <a href="#">Log in</a></p>
+                <p class="form-two-p">Having trouble? <a href="#">Get help</a></p>
             </div>
         </div>
-    </div> -->
+    </div>
+
+    <script src="form.js"></script>
 </body>
 </html>
