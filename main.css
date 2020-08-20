@@ -10,8 +10,15 @@ a{
     color: #333;
 }
 
+.container {
+    text-align: center;
+    width:80% !important;
+    max-width: 900px;
+    margin:0 auto;
+}
 .links-wrapper{
     display:flex;
+    justify-content: center;
 }
 .links{
     padding:10px 15px;
@@ -19,12 +26,7 @@ a{
     box-shadow: 2px 2px 5px 2px #c3c4e4;
     margin:10px;
 }
-.container {
-    text-align: center;
-    width:80%;
-    max-width: 900px;
-    margin:0 auto;
-}
+
 .follow img{
     width:30px;
 }
@@ -32,4 +34,10 @@ a{
 .magictime {
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
+}
+
+@media(max-width:425px){
+    .links{
+        font-size:12px;
+    }
 }
