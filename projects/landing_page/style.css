@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:#eef1fc;
+}
+
+/* All Universal Codes Goes here */
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style:none;
+    padding:0;
+
+}
+
+img{
+    width:40px;
+    
+}
+
+/* End of Universal Styling */
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+     height:70px;
+    /* line-height: 70px; */
+    /* background:white; */
+    align-items: center;
+}
+.navbar-brand{
+    margin-left: 3rem;
+}
+.navbar-brand h1{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.ul-list{
+    display: flex;
+    padding-right: 50px;
+}
+
+.ul-list li{
+    padding-right:2rem;
+    color:#384874;
+    font-weight:500;
+    padding-bottom: 5px;
+}
+
+.ul-list li:hover{
+    border-bottom: 3px solid #384874;
+ }
+
+.hero{
+    width:90%;
+    max-width: 1020px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding:80px 0px;
+}
+
+.intro{
+    text-align: center;
+    width:80%;
+    line-height: 30px;
+    
+}
+
+.intro p{
+    font-size: 14px;
+    margin:20px 0px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box{
+    background: #fff;
+    margin: 10px;
+    padding:3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box img{
+    margin: 15px 0px;
+}
+
+.btn{
+    display: block;
+    border: none;
+    outline: none;
+    padding:10px;
+    border-radius:5px;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+    color:#8C919E;
+}
+
+.btn-bordered{
+    border:2px solid #ACACAC;
+    background: transparent;
+}
+
+.btn-full{
+    background: #384874;
+    color:#fff;
+}
+
+.box-two p{
+    margin-top: 20px;
+    font-size:12px;
+}
+
+.box-two{
+    box-shadow: 1px 4px 6px 3px #cfd1d4;
+    
+}
+
+footer{
+    background: #f9fcff;
+    padding: 15px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-sec-one{
+    display: flex;
+    flex-wrap: unset;
+    justify-content: space-evenly;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.footer-section{
+    padding: 3rem 0;
+    line-height: 30px;
+    
+}
+
+.footer-p{
+    text-align: center;
+    font-weight: 500;
+}
+
+
+@media(max-width:700px){
+
+    .ul-list{
+        display: none;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-sec-one{
+        flex-direction: column;
+    }
+}
+
+
