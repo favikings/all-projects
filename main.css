@@ -17,8 +17,9 @@ a{
     margin:0 auto;
 }
 .links-wrapper{
-    display:flex;
-    justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    
 }
 .links{
     padding:10px 15px;
@@ -39,5 +40,11 @@ a{
 @media(max-width:425px){
     .links{
         font-size:12px;
+    }
+
+    .links-wrapper{
+    
+        grid-template-columns: repeat(2, 1fr);
+        
     }
 }
