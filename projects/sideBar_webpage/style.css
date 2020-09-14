@@ -23,6 +23,7 @@ body{
     text-align: center;
     padding: 2rem 0;
     position: sticky;
+    transition: transform 1s ease-in-out;
     
 }
 
@@ -107,6 +108,7 @@ nav ul li{
 .close-SideBar{
     transform: translateX(-100%) !important;
    display: none;
+   
 }
 
 .expand-main{
@@ -116,6 +118,7 @@ nav ul li{
 @media(max-width:425px){
     .sidebar{
         width: 30%;
+        transition: transform 1s ease-in-out;
     }
     .main{
         width: 70%;
