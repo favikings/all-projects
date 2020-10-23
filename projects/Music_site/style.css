@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,600;0,700;1,400&display=swap');
+
+:root{
+    --primary: #7971E9;
+    --secondary-color: l #8a8af4;
+    --navcolor: #191B27;
+}
+
+/* Universal Selectors Styling */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family:'Overpass', sans-serif;
+    font-size:16px;
+    background:#121318;
+    color:#ffffff;
+}
+
+.container{
+    /* max-width:1020px; */
+    width:90%;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    display: block;
+    background: var(--primary);
+    border:none;
+    height:auto;
+    padding: 10px 15px;
+    font-weight:bold;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.navbar{
+    background: var(--navcolor);
+    line-height: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    /* padding:15px 0px; */
+    height:50px;
+    align-items: center;
+}
+
+.nav-brand h4{
+    color:   #3984DD;
+}
+
+.nav-links, .nav-actions{
+    display:flex;
+    align-items:center;
+}
+/* .nav-links{
+    flex:1;
+} */
+
+.sign-up-btn{
+    /* height: 30px; */
+    border: 2px solid  #7971E9;
+    background: transparent;
+    color:#fff;
+    padding:7px 25px;
+    
+}
+
+.nav-links li{  
+    padding: 0px 20px;
+}
+
+.nav-items{
+    padding:0px 20px;
+}
+
+/* Hero Section Styling */
+
+.hero{
+    padding: 150px 0px;
+    background: url('img/Rectangle-8.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.hero-item{
+    
+}
+
+.hero-item h1{
+    font-weight: lighter;
+    padding:10px 0px;
+    
+}
+
+.hero-item p{
+    line-height: 25px;
+    margin-bottom: 20px;
+
+}
+
+.row{
+    margin:50px 0px;
+}
+
+.col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:50px;
+    margin:20px 0px;
+}
+
+.col-1{
+    background: var(--navcolor);
+    border-radius: 5px;
+    box-shadow: 3px 1px 20px 5px#0f0f0f;
+}
+
+.col-1-inner{
+    padding:30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 img{
+    width:100%;
+}
+
+.col-1-inner .name{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.col-1-inner p{
+    font-size: 0.8em;
+    color:var(--primary);
+}
+/*  
+.play-btn{
+    display: flex;
+    position: fixed;
+    top:-150px;
+    margin-left: 150px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+.play-btn img{
+    width:auto;
+    margin:0 auto;
+}
+ */
+
+
+
+
+
+
