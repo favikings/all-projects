@@ -93,9 +93,9 @@ li{
     margin-bottom: 50px;
 }
 
-.hero-item{
+/* .hero-item{
     
-}
+} */
 
 .hero-item h1{
     font-weight: lighter;
@@ -109,7 +109,7 @@ li{
 
 }
 
-.row{
+.row-1{
     margin:50px 0px;
 }
 
@@ -160,6 +160,17 @@ li{
     margin:0 auto;
 }
  */
+
+ .two-col{
+     display:grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding: 50px 20px;
+     height:400px;
+ }
+
+ .row{
+     background: var(--navcolor);
+ }
 
 
 
