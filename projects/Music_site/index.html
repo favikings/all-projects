@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="toggle.js" defer ></script>
     <title>Music Site</title>
 </head>
 <body>
@@ -12,7 +14,10 @@
                 <div class="container">
                     <div class="nav-bar">
                         <div class="nav-brand">
-                            <h4>MUSIC GO</h4>
+                            <h3>MUSIC GO</h3>
+                        </div>
+                        <div class="menu-btn">
+                            <i class="fas fa-bars fa-2x"></i>
                         </div>
                         <ul class="nav-links">
                             <li class="nav-items">Home</li>
@@ -25,6 +30,23 @@
                             <li class="nav-items">Login</li>
                             <button class="btn sign-up-btn">Sign Up</button>
                         </div>
+                    </div>
+                </div>
+
+                <div class="mobile-nav">
+                    <div class="mobile-nav-brand nav-brand">
+                        <h3>MUSIC GO</h3>
+                    </div>
+                    <ul class="mobile-nav-links">
+                        <li class="nav-items">Home</li>
+                        <li class="nav-items">Tour</li>
+                        <li class="nav-items">Latest Release</li>
+                        <li class="nav-items">Artists</li>
+                        <li class="nav-items">Albums</li>
+                    </ul>
+                    <div class="mobile-nav-actions">
+                        <li class="nav-items">Login</li>
+                        <button class="btn sign-up-btn">Sign Up</button>
                     </div>
                 </div>
             </nav>
@@ -98,21 +120,22 @@
                 <div class="container">
                     <div class="two-col">
                         <div>
-                            <h3>Explore Our Upcoming Events</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, excepturi facilis consectetur hic ex nostrum laboriosam necessitatibus eaque consequuntur quisquam. Voluptatum repudiandae mollitia quasi voluptas, impedit aperiam distinctio, quae culpa, dolorem explicabo rerum velit quia laboriosam. Quas quo facere ea?</p>
+                            <h3>Explore Our Upcoming <br>Events</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, excepturi facilis consectetur hic ex nostrum laboriosam necessitatibus eaque consequuntur quisquam. Voluptatum repudiandae mollitia quasi voluptas, impedit aperiam distinctio, quae culpa, ?</p>
     
                             <button class="btn">Set Upcoming Events</button>
                         </div>
                         <div class="two-col-img">
-                            <img src="img/Rectangle-59.png" alt="">
+                            
                         </div>
                     </div>
                 </div>
             </div><!--End Of Row-->
 
-            <section>
-                <h2>New Releases for You</h2>
-                 <div class="row">
+            <section class="release">
+                <div class="container">
+                    <h2>New Releases for You</h2>
+                 <div class="row-2">
                     <div>
                         <img src="img/Rectangle-30-1.png" alt="">
                         <p>Look Up Child <br> By Lauren Diagle</p>
@@ -129,43 +152,57 @@
                         <img src="img/Rectangle-34.png" alt="">
                         <p>Look Up Child <br> By Lauren Diagle</p>
                     </div>
-                </div>
+                </div> 
+                </div>              
             </section>
 
-            <section>
+            <section class="blog"> 
+               <div class="container">
                 <h2>Blog Posts</h2>
                 <p>Stay updated with our latest news</p>
-                <div class="row">
+                <div class="row-3">
                     <div class="big-image">
                         <p>Redefing Music in Trying times<br>27 June 2020</p>
                     </div>
                     <div class="two-ups">
-                        <div>
+                        <div class="up-one">
                             <p>Music For Healing<br>27 June 2020</p>
                         </div>
-                        <div>
+                        <div class="up-two">
                             <p>Taking a Break from Music<br>27 June 2020</p>
                         </div>
                     </div>
                 </div>
+               </div>
             </section>
 
             <section>
                 <div class="call-to-action">
                     <div class="container">
                         <h2>Do you wanr to Get Notified on Our Exclusive Offers?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quis excepturi enim deserunt est laboriosam nobis qui nihil, officia natus.</p>
-                        <input type="text" class="form-input">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quis <br>excepturi enim deserunt est laboriosam.</p>
+                        <input type="text" placeholder="Enter your Email Address" class="form-input">
 
-                        <button class="btn">Submit</button>
+                        <button class="btn sb-btn">Submit</button>
                     </div>
                 </div>
             </section>
            
             <footer>
-                <h1>Music-Go</h1>
-                <hr>
+                <div class="container">
+                    <div class="footer-credit">
+                        <h1>Music-Go</h1>
+    
+                        <ul class="list">
+                            <li>Home</li>
+                            <li>tour</li>
+                            <li>cookies Policy</li>
+                            <li>Legal terms</li>
+                        </ul>
+                    </div>
+                    <hr><br>
                 <h3>the music site you love</h3>
+                </div>
             </footer>
 
 
