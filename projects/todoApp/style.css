@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .landing-page .landing-page-img{
-    padding: 55px 25px 0px;
+    padding: 40px 25px 0px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -79,7 +79,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .salute p{
-    line-height: 20px;
+    line-height: 30px;
+    font-size: 18px;
 }
 
 .landing-page-img img{
@@ -87,7 +88,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 blockquote{
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     font-weight: 500;
+    margin: 1rem 0px;
 }
