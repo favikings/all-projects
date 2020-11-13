@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
     outline:none;
     color:#fff;
     background: #9e0b4d;
-    padding:0.7rem 2.5rem;
+    padding:0.8rem 2.7rem;
     border-radius:20px;
     font-size: 1rem;
     font-weight: 600;
@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .landing-page .landing-page-img{
-    padding: 40px 25px 0px;
+    padding: 30px 25px 0px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -74,13 +74,13 @@ h1,h2,h3,h4,h5,h6{
 
 .salute h1{
     font-size: 2.5rem;
-    padding: 1rem 0;
+    padding: 0.8rem 0;
     font-weight: 600;
 }
 
 .salute p{
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 25px;
+    font-size: 17px;
 }
 
 .landing-page-img img{
