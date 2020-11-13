@@ -32,9 +32,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
 }
 
-.hide{
-    display: none;
-}
+
 
 .btn{
     border:none;
@@ -50,8 +48,10 @@ h1,h2,h3,h4,h5,h6{
     margin:1rem 0px;
 }
 
-/* Main Section */
-.landing-page{
+
+
+/* General Section */
+.section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +59,11 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
 }
 
-.landing-page .landing-page-img{
-    padding: 30px 25px 0px;
+.hide{
+    display: none;
+}
+.section .landing-page-img{
+    padding: 25px 25px 0px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -93,3 +96,39 @@ blockquote{
     font-weight: 500;
     margin: 1rem 0px;
 }
+
+
+/* Create Account page */
+#create-acct h2{
+    font-size: 2rem;
+    margin: 2rem 0px;
+}
+
+.form-group{
+    padding: 1rem 0px;
+}
+label{
+    display: block;
+}
+
+input[type="file"]{
+    content: "Choose Image";
+    background: #fff;
+}
+
+.input-group {
+    padding: 1rem 2rem;
+    border-radius:10px;
+    border: none;
+    outline: none;
+    width:100%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0px;
+    box-shadow: 1px 2px 5px 1px #68686833;
+}
+
+/* .sign-up{
+    width:90%;
+    text-align: center;
+} */
