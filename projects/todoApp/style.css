@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&family=Yeon+Sung&display=swap');
+
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +12,7 @@ body{
     color: #fcfcfc;
     height: 100vh;
     font-size:14px;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 /* .container */
@@ -40,16 +44,18 @@ h5{
 }
 
 .brand-title {
-    font-size:3rem;
+    font-size:3.5rem;
     text-align: center;
+    font-family: 'Yeon Sung', cursive !important;
 }
 
  .small{
     display: block;
-    padding: 5px 0px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif !important;
 } 
 
 .note{
@@ -69,21 +75,33 @@ h5{
 
 .icon-box{
     width:80%;
+    height: 100%;
     color: #333;
     margin: 0 auto;
-    padding:10px 60px;
+    padding:10px 10px;
     background: #f4f4f4;
     margin:10px 0px;
     border-radius: 5px;
     font-size:14px;
     box-shadow: 2px 4px 5px #0f0129;
+    display:flex;
+    justify-content: space-between;
+}
 
+.icon-box span{
+    flex:1;
+   border-right: 1px solid #0f0129;
+}
+
+.icon-box > div{
+    flex:2;
+    padding: 0px 10px;
 }
 
 #email{
     background:#fff;
     color: #140A26;
-
+    
 }
 
 #number{
