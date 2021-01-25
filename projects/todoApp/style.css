@@ -13,6 +13,8 @@ body{
     height: 100vh;
     font-size:14px;
     font-family: 'Raleway', sans-serif !important;
+    max-width:768px;
+    margin: auto;
 }
 
 /* .container */
@@ -86,6 +88,7 @@ h5{
     box-shadow: 2px 4px 5px #0f0129;
     display:flex;
     justify-content: space-between;
+    cursor:pointer;
 }
 
 .icon-box span{
@@ -105,6 +108,42 @@ h5{
 }
 
 #number{
+    background:#FF5C5C;
+    color:#fff;
+}
+
+
+
+
+/* Create Style css */
+.form-wrapper{
+    margin-top: 40px;
+}
+
+.create-page{
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   max-width:768px;
+   justify-content: center;
+   /* align-items: center; */
+   height: 100vh;
+   margin: 0 auto;
+}
+
+.form-group{
+   
+}
+
+.input-group{
+    width:100%;
+    border: none;
+    outline: none;
+    padding:10px 12px;
+    margin:10px auto;
+}
+
+.get-started{
     background:#FF5C5C;
     color:#fff;
 }
