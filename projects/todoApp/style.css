@@ -123,7 +123,7 @@ h5{
 .create-page{
    display: flex;
    flex-direction: column;
-   width: 70%;
+   width: 80%;
    max-width:768px;
    justify-content: center;
    /* align-items: center; */
@@ -140,7 +140,7 @@ h5{
     border: none;
     outline: none;
     padding:15px 12px;
-    margin:10px auto;
+    margin:15px auto;
     font-family: 'Raleway', sans-serif !important;
 }
 
@@ -150,6 +150,81 @@ h5{
     box-shadow: 2px 4px 3px #140A26;
     font-family: 'Raleway', sans-serif !important;
 }
+
+
+/* interface page */
+.interface-page{
+   
+}
+
+.user-name{
+    display: flex;
+    padding: 30px 0px 0px 30px;
+}
+
+.user-name h1{
+    margin-right: 5px;
+}
+
+.todo-container{
+    padding: 10px 20px;
+}
+
+.todo-list{
+    padding: 15px 20px;
+    /* display: block; */
+    background: #fcfcfc;
+    margin:15px 0px;
+    color: #0f0129;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 4px 5px #0f0129;
+}
+
+.todo-list > span{
+    cursor: pointer;
+}
+.sticky-nav{
+    width:100%;
+    background: #FF5C5C;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+
+
+
+
+/* MOBILE NAV */
+/* .mobile-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #121318ec;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position:fixed;
+    transform: translateY(-600px);
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.close-btn{
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+.hide{
+    transform: translateY(-60px);
+} */
 
 
 @media(max-width:425px){
