@@ -9,3 +9,7 @@ menuBtn.addEventListener('click', ()=>{
 closeBtn.addEventListener('click', ()=>{
     mobileNav.classList.remove('hide');
 })
+
+
+/* const mobileNav = document.querySelector('.mobile-nav');
+console.log(mobileNav); */

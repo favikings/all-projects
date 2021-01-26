@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="toggle.js"></script>
+    
     <title>Movee - ToDo App</title>
 </head>
 <body>
@@ -31,28 +31,33 @@
         </div>
        
         <nav class="sticky-nav">
-            <div class="menu-icon">
-                <i class="fas fa-bars fa-2x"></i>
+            <div class="menu-icon ">
+                <i class="fas fa-bars fa-2x menu-btn"></i>
             </div>
             <div class="add-btn">
                 <i class="fas fa-plus fa-2x"></i>
             </div>
-            <div class="add-btn">
-                <i class="fas fa-user fa-2x"></i>
+            <div class="profile-btn">
+                <a href="profile.html"><i class="fas fa-user fa-2x user-btn"></i></a>
             </div>
 
-            <!-- <div class="mobile-nav">
-                <div class="menu-btn close-btn">
+            <div class="mobile-nav">
+                <h1 class="brand-title mobile">Movee</h1>
+                <span class="small">todo app</span><br>
+                <hr width="40%">
+                <div class="close-btn">
                     <i class="fas fa-times fa-2x"></i>
                 </div>
 
-                <ul>
-                   <li><a href="#">Landing page</a></li>
-                   <li><a href="#">Create Account page</a></li>
-                   <li><a href="#">Interface page</a></li>
+                <ul class="mobile-links">
+                   <li><a href="index.html">Landing page</a></li>
+                   <li><a href="create.html">Create Account page</a></li>
+                   <li><a href="interface.html">Interface page</a></li>
                 </ul>
-            </div> -->
+            </div>
         </nav>
     </section>
+
+    <script src="toggle.js"></script>
 </body>
 </html>

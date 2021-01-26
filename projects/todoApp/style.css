@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
 body{
     background: #140A26;
     color: #fcfcfc;
@@ -138,6 +143,7 @@ h5{
 .input-group{
     width:100%;
     border: none;
+    border-radius: 5px;
     outline: none;
     padding:15px 12px;
     margin:15px auto;
@@ -197,11 +203,68 @@ h5{
 }
 
 
+/* Profile Page */
+.profile-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #0f0129;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top:0;
+    position:fixed;
+    transform: translateX(350px);
+    transition: transform 0.5s ease-in-out;   
+}
+
+.profile-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    width:90%;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img{
+    width:150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 5px solid #fcfcfc;
+    box-shadow: 2px 6px 5px #0f0129;
+    margin: 20px 0px;
+}
+
+
+
+.profile-img img{
+    width: 100%;
+}
+
+.card-box{
+    width:100%;
+    padding:10px;
+    color: #0f0129;
+    background: #fcfcfc;
+    margin:10px 0px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-box span{
+    margin:0px 10px;
+}
 
 
 
 /* MOBILE NAV */
-/* .mobile-nav{
+.mobile-nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,20 +274,40 @@ h5{
     width: 100%;
     height: 100%;
     z-index: 2;
+    top:0;
     position:fixed;
-    transform: translateY(-600px);
+    transform: translateX(350px);
     transition: transform 0.5s ease-in-out;
     
 }
 
 .close-btn{
     position: absolute;
-    top:20px;
+    top:30px;
     right: 20px;
 }
+
+
+.mobile-links{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.mobile-links li{
+    padding: 15px 0px;
+}
+
+.mobile-links a{
+    text-decoration: none;
+    color:#fcfcfc;
+    font-size:1rem;
+    
+}
+
 .hide{
-    transform: translateY(-60px);
-} */
+    transform: translateX(0px);
+    /* display: none; */
+} 
 
 
 @media(max-width:425px){
